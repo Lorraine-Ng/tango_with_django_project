@@ -21,6 +21,7 @@
             {% else %}
                 The specified category does not exist.
             {% endif %}
+            <a href="{% url 'rango:add_page' category.slug %}">Add Page</a> <br />
         </div>
 
         <a href="/rango/">Home</a><br />
